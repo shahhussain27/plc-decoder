@@ -1,0 +1,236 @@
+{
+  "_comment": "LiraNET Data Transmission Protocol — Mitsubishi FX5U PLC",
+  "format_name": "liranet_fx5u",
+  "protocol": "LiraNET EtherNET",
+  "metadata": {
+    "protocol_name": "LiraNET Data Transmission Protocol on EtherNET",
+    "copyright": "mrpl@2016",
+    "plc_model": "Mitsubishi FX5U",
+    "endianness_note": "FX5U uses Little-Endian for data storage and transmission"
+  },
+  "endianness": "big",
+  "packet_definition": {
+    "packet_size_bytes": 40,
+    "header_size_bytes": 0,
+    "start_markers": ["03E9"],
+    "description": "Each packet starts with 0x03E9 (Sub-Client ID = 1001)"
+  },
+  "timestamp": {
+    "word_offset": 1,
+    "fields": ["year", "month", "day", "hour", "minute", "second", "millisecond"],
+    "description": "7 consecutive 16-bit words starting at word offset 1"
+  },
+  "fields": [
+    {
+      "name": "sub_client_id",
+      "word_offset": 0,
+      "size_words": 1,
+      "byteorder": "big",
+      "signed": false,
+      "data_type": "uint16",
+      "description": "Sub-Client ID / Model identifier (0x03E9 = 1001)",
+      "register": "D6500"
+    },
+    {
+      "name": "year",
+      "word_offset": 1,
+      "size_words": 1,
+      "byteorder": "big",
+      "signed": false,
+      "data_type": "uint16",
+      "description": "Year (e.g. 0x07E8 = 2024)",
+      "register": "D6501"
+    },
+    {
+      "name": "month",
+      "word_offset": 2,
+      "size_words": 1,
+      "byteorder": "big",
+      "signed": false,
+      "data_type": "uint16",
+      "description": "Month (1–12)",
+      "register": "D6502"
+    },
+    {
+      "name": "day",
+      "word_offset": 3,
+      "size_words": 1,
+      "byteorder": "big",
+      "signed": false,
+      "data_type": "uint16",
+      "description": "Day (1–31)",
+      "register": "D6503"
+    },
+    {
+      "name": "hour",
+      "word_offset": 4,
+      "size_words": 1,
+      "byteorder": "big",
+      "signed": false,
+      "data_type": "uint16",
+      "description": "Hour (0–23)",
+      "register": "D6504"
+    },
+    {
+      "name": "minute",
+      "word_offset": 5,
+      "size_words": 1,
+      "byteorder": "big",
+      "signed": false,
+      "data_type": "uint16",
+      "description": "Minute (0–59)",
+      "register": "D6505"
+    },
+    {
+      "name": "second",
+      "word_offset": 6,
+      "size_words": 1,
+      "byteorder": "big",
+      "signed": false,
+      "data_type": "uint16",
+      "description": "Second (0–59)",
+      "register": "D6506"
+    },
+    {
+      "name": "millisecond",
+      "word_offset": 7,
+      "size_words": 1,
+      "byteorder": "big",
+      "signed": false,
+      "data_type": "uint16",
+      "description": "Millisecond (0–999)",
+      "register": "D6507"
+    },
+    {
+      "name": "d1600_initial",
+      "word_offset": 8,
+      "size_words": 1,
+      "byteorder": "big",
+      "signed": false,
+      "data_type": "uint16",
+      "description": "INITIAL",
+      "register": "D1600"
+    },
+    {
+      "name": "d1610_vol_seek",
+      "word_offset": 9,
+      "size_words": 1,
+      "byteorder": "big",
+      "signed": false,
+      "data_type": "uint16",
+      "description": "VOL-, SEEK LEFT",
+      "register": "D1610"
+    },
+    {
+      "name": "d1620_vol_ok",
+      "word_offset": 10,
+      "size_words": 1,
+      "byteorder": "big",
+      "signed": false,
+      "data_type": "uint16",
+      "description": "VOL+, OK",
+      "register": "D1620"
+    },
+    {
+      "name": "d1630_mute_seek",
+      "word_offset": 11,
+      "size_words": 1,
+      "byteorder": "big",
+      "signed": false,
+      "data_type": "uint16",
+      "description": "MUTE, SEEK RIGHT",
+      "register": "D1630"
+    },
+    {
+      "name": "d1640_mode_up",
+      "word_offset": 12,
+      "size_words": 1,
+      "byteorder": "big",
+      "signed": false,
+      "data_type": "uint16",
+      "description": "MODE, UP",
+      "register": "D1640"
+    },
+    {
+      "name": "d1650_prev_down",
+      "word_offset": 13,
+      "size_words": 1,
+      "byteorder": "big",
+      "signed": false,
+      "data_type": "uint16",
+      "description": "PREV, DOWN",
+      "register": "D1650"
+    },
+    {
+      "name": "d1660_next",
+      "word_offset": 14,
+      "size_words": 1,
+      "byteorder": "big",
+      "signed": false,
+      "data_type": "uint16",
+      "description": "NEXT, INITIAL",
+      "register": "D1660"
+    },
+    {
+      "name": "d1670_initial_vol",
+      "word_offset": 15,
+      "size_words": 1,
+      "byteorder": "big",
+      "signed": false,
+      "data_type": "uint16",
+      "description": "INITIAL, VOL-",
+      "register": "D1670"
+    },
+    {
+      "name": "d1680_cruze_vol",
+      "word_offset": 16,
+      "size_words": 1,
+      "byteorder": "big",
+      "signed": false,
+      "data_type": "uint16",
+      "description": "CRUZE, VOL+",
+      "register": "D1680"
+    },
+    {
+      "name": "d1690_rst_mute",
+      "word_offset": 17,
+      "size_words": 1,
+      "byteorder": "big",
+      "signed": false,
+      "data_type": "uint16",
+      "description": "RST+, MUTE",
+      "register": "D1690"
+    },
+    {
+      "name": "d1700_set_mode",
+      "word_offset": 18,
+      "size_words": 1,
+      "byteorder": "big",
+      "signed": false,
+      "data_type": "uint16",
+      "description": "SET-, MODE",
+      "register": "D1700"
+    },
+    {
+      "name": "d1710_cancel_prev",
+      "word_offset": 19,
+      "size_words": 1,
+      "byteorder": "big",
+      "signed": false,
+      "data_type": "uint16",
+      "description": "CANCEL, PREV",
+      "register": "D1710"
+    }
+  ],
+  "parser_options": {
+    "skip_padding": true,
+    "min_valid_bytes": 4,
+    "validate_timestamps": true,
+    "sentinel_value": 9999,
+    "sentinel_meaning": "no_data"
+  },
+  "crc": {
+    "mode": "none",
+    "description": "LiraNET does not include CRC in the standard packet"
+  }
+}

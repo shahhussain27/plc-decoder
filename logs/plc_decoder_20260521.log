@@ -1,0 +1,328 @@
+2026-05-21 11:55:39 [INFO    ] logger:81 — Reading 'Python.txt' as format='hex_text' (0.8 KB)
+2026-05-21 11:55:39 [DEBUG   ] logger:78 — Extracted 800 hex chars from text file.
+2026-05-21 11:55:39 [INFO    ] logger:81 — StructureAnalyzer: starting analysis...
+2026-05-21 11:55:39 [DEBUG   ] logger:78 — Period detection: best_period=None score=0.000
+2026-05-21 11:55:39 [INFO    ] logger:81 — TimestampDetector found 0 timestamps.
+2026-05-21 11:56:16 [INFO    ] logger:81 — Reading 'Python.txt' as format='hex_text' (0.8 KB)
+2026-05-21 11:56:16 [DEBUG   ] logger:78 — Extracted 800 hex chars from text file.
+2026-05-21 11:56:16 [INFO    ] logger:81 — StructureAnalyzer: starting analysis...
+2026-05-21 11:56:16 [DEBUG   ] logger:78 — Period detection: best_period=10 score=0.932
+2026-05-21 11:56:16 [DEBUG   ] logger:78 — Timestamp found: DetectedTimestamp(@word 1: 2024-11-11 10:55:17)
+2026-05-21 11:56:16 [INFO    ] logger:81 — TimestampDetector found 1 timestamps.
+2026-05-21 11:56:26 [INFO    ] logger:81 — Reading 'Python.txt' as format='hex_text' (0.8 KB)
+2026-05-21 11:56:26 [DEBUG   ] logger:78 — Extracted 800 hex chars from text file.
+2026-05-21 11:56:26 [INFO    ] logger:81 — Starting parse: 800 hex chars (0.4 KB)
+2026-05-21 11:56:26 [INFO    ] logger:81 — Packet detection: marker-based, found 7 packets.
+2026-05-21 11:56:26 [INFO    ] logger:81 — Parse complete: 1/7 valid records in 0.01s
+2026-05-21 11:57:05 [INFO    ] logger:81 — Reading 'Python.txt' as format='hex_text' (0.8 KB)
+2026-05-21 11:57:05 [DEBUG   ] logger:78 — Extracted 800 hex chars from text file.
+2026-05-21 11:57:05 [INFO    ] logger:81 — Starting parse: 800 hex chars (0.4 KB)
+2026-05-21 11:57:05 [INFO    ] logger:81 — Packet detection: marker-based, found 7 packets.
+2026-05-21 11:57:05 [INFO    ] logger:81 — Parse complete: 1/7 valid records in 0.01s
+2026-05-21 11:57:05 [INFO    ] logger:81 — Exporting 7 records to Excel: output\plc_decoded.xlsx
+2026-05-21 11:57:05 [INFO    ] logger:81 — Excel saved: output\plc_decoded.xlsx
+2026-05-21 11:57:47 [INFO    ] logger:81 — PLC Decoder 1.0.0 started.
+2026-05-21 11:58:23 [INFO    ] logger:81 — Reading 'Python.txt' as format='hex_text' (0.8 KB)
+2026-05-21 11:58:23 [DEBUG   ] logger:78 — Extracted 800 hex chars from text file.
+2026-05-21 11:58:23 [INFO    ] logger:81 — File loaded: C:/Users/gamer/Downloads/Python.txt
+2026-05-21 11:58:25 [INFO    ] logger:81 — Starting parse: 800 hex chars (0.4 KB)
+2026-05-21 11:58:25 [INFO    ] logger:81 — Packet detection: marker-based, found 7 packets.
+2026-05-21 11:58:25 [INFO    ] logger:81 — Parse complete: 1/7 valid records in 0.01s
+2026-05-21 11:58:26 [INFO    ] logger:81 — Parse done: 1/7 valid
+2026-05-21 11:59:18 [INFO    ] logger:81 — Starting parse: 800 hex chars (0.4 KB)
+2026-05-21 11:59:18 [INFO    ] logger:81 — Packet detection: marker-based, found 7 packets.
+2026-05-21 11:59:18 [INFO    ] logger:81 — Parse complete: 1/7 valid records in 0.01s
+2026-05-21 11:59:18 [INFO    ] logger:81 — Parse done: 1/7 valid
+2026-05-21 12:00:15 [INFO    ] logger:81 — Starting parse: 800 hex chars (0.4 KB)
+2026-05-21 12:00:15 [INFO    ] logger:81 — Packet detection: marker-based, found 7 packets.
+2026-05-21 12:00:15 [INFO    ] logger:81 — Parse complete: 1/7 valid records in 0.01s
+2026-05-21 12:00:15 [INFO    ] logger:81 — Parse done: 1/7 valid
+2026-05-21 12:00:17 [INFO    ] logger:81 — Starting parse: 800 hex chars (0.4 KB)
+2026-05-21 12:00:17 [INFO    ] logger:81 — Packet detection: marker-based, found 7 packets.
+2026-05-21 12:00:17 [INFO    ] logger:81 — Parse complete: 1/7 valid records in 0.01s
+2026-05-21 12:00:17 [INFO    ] logger:81 — Parse done: 1/7 valid
+2026-05-21 12:00:17 [INFO    ] logger:81 — Starting parse: 800 hex chars (0.4 KB)
+2026-05-21 12:00:17 [INFO    ] logger:81 — Packet detection: marker-based, found 7 packets.
+2026-05-21 12:00:17 [INFO    ] logger:81 — Parse complete: 1/7 valid records in 0.01s
+2026-05-21 12:00:18 [INFO    ] logger:81 — Parse done: 1/7 valid
+2026-05-21 12:00:25 [INFO    ] logger:81 — Reading 'Python.txt' as format='hex_text' (0.8 KB)
+2026-05-21 12:00:25 [DEBUG   ] logger:78 — Extracted 800 hex chars from text file.
+2026-05-21 12:00:25 [INFO    ] logger:81 — File loaded: C:/Users/gamer/Downloads/Python.txt
+2026-05-21 12:00:26 [INFO    ] logger:81 — Starting parse: 800 hex chars (0.4 KB)
+2026-05-21 12:00:26 [INFO    ] logger:81 — Packet detection: marker-based, found 7 packets.
+2026-05-21 12:00:26 [INFO    ] logger:81 — Parse complete: 1/7 valid records in 0.01s
+2026-05-21 12:00:26 [INFO    ] logger:81 — Parse done: 1/7 valid
+2026-05-21 12:01:34 [INFO    ] logger:81 — StructureAnalyzer: starting analysis...
+2026-05-21 12:01:34 [DEBUG   ] logger:78 — Period detection: best_period=10 score=0.932
+2026-05-21 12:01:34 [DEBUG   ] logger:78 — Timestamp found: DetectedTimestamp(@word 1: 2024-11-11 10:55:17)
+2026-05-21 12:01:34 [INFO    ] logger:81 — TimestampDetector found 1 timestamps.
+2026-05-21 12:05:37 [INFO    ] logger:81 — Starting parse: 800 hex chars (0.4 KB)
+2026-05-21 12:05:37 [INFO    ] logger:81 — Packet detection: fixed-length (20 B), found 20 packets.
+2026-05-21 12:05:37 [DEBUG   ] logger:78 — Packet 4 at offset 160 is all-zeros padding, skipping.
+2026-05-21 12:05:37 [DEBUG   ] logger:78 — Packet 5 at offset 200 is all-zeros padding, skipping.
+2026-05-21 12:05:37 [DEBUG   ] logger:78 — Packet 6 at offset 240 is all-zeros padding, skipping.
+2026-05-21 12:05:37 [DEBUG   ] logger:78 — Packet 7 at offset 280 is all-zeros padding, skipping.
+2026-05-21 12:05:37 [DEBUG   ] logger:78 — Packet 8 at offset 320 is all-zeros padding, skipping.
+2026-05-21 12:05:37 [DEBUG   ] logger:78 — Packet 9 at offset 360 is all-zeros padding, skipping.
+2026-05-21 12:05:37 [DEBUG   ] logger:78 — Packet 10 at offset 400 is all-zeros padding, skipping.
+2026-05-21 12:05:37 [DEBUG   ] logger:78 — Packet 11 at offset 440 is all-zeros padding, skipping.
+2026-05-21 12:05:37 [DEBUG   ] logger:78 — Packet 12 at offset 480 is all-zeros padding, skipping.
+2026-05-21 12:05:37 [DEBUG   ] logger:78 — Packet 13 at offset 520 is all-zeros padding, skipping.
+2026-05-21 12:05:37 [DEBUG   ] logger:78 — Packet 14 at offset 560 is all-zeros padding, skipping.
+2026-05-21 12:05:37 [DEBUG   ] logger:78 — Packet 15 at offset 600 is all-zeros padding, skipping.
+2026-05-21 12:05:37 [DEBUG   ] logger:78 — Packet 16 at offset 640 is all-zeros padding, skipping.
+2026-05-21 12:05:37 [DEBUG   ] logger:78 — Packet 17 at offset 680 is all-zeros padding, skipping.
+2026-05-21 12:05:37 [DEBUG   ] logger:78 — Packet 18 at offset 720 is all-zeros padding, skipping.
+2026-05-21 12:05:37 [DEBUG   ] logger:78 — Packet 19 at offset 760 is all-zeros padding, skipping.
+2026-05-21 12:05:37 [INFO    ] logger:81 — Parse complete: 4/4 valid records in 0.01s
+2026-05-21 12:05:37 [INFO    ] logger:81 — Parse done: 4/4 valid
+2026-05-21 12:05:51 [INFO    ] logger:81 — Starting parse: 800 hex chars (0.4 KB)
+2026-05-21 12:05:51 [INFO    ] logger:81 — Packet detection: marker-based, found 7 packets.
+2026-05-21 12:05:51 [INFO    ] logger:81 — Parse complete: 1/7 valid records in 0.01s
+2026-05-21 12:05:51 [INFO    ] logger:81 — Parse done: 1/7 valid
+2026-05-21 12:06:37 [INFO    ] logger:81 — Starting parse: 800 hex chars (0.4 KB)
+2026-05-21 12:06:37 [INFO    ] logger:81 — Packet detection: marker-based, found 7 packets.
+2026-05-21 12:06:37 [INFO    ] logger:81 — Parse complete: 1/7 valid records in 0.01s
+2026-05-21 12:06:37 [INFO    ] logger:81 — Parse done: 1/7 valid
+2026-05-21 12:06:38 [INFO    ] logger:81 — Starting parse: 800 hex chars (0.4 KB)
+2026-05-21 12:06:38 [INFO    ] logger:81 — Packet detection: marker-based, found 7 packets.
+2026-05-21 12:06:38 [INFO    ] logger:81 — Parse complete: 1/7 valid records in 0.01s
+2026-05-21 12:06:38 [INFO    ] logger:81 — Parse done: 1/7 valid
+2026-05-21 12:06:39 [INFO    ] logger:81 — Starting parse: 800 hex chars (0.4 KB)
+2026-05-21 12:06:39 [INFO    ] logger:81 — Packet detection: marker-based, found 7 packets.
+2026-05-21 12:06:39 [INFO    ] logger:81 — Parse complete: 1/7 valid records in 0.01s
+2026-05-21 12:06:39 [INFO    ] logger:81 — Parse done: 1/7 valid
+2026-05-21 12:06:39 [INFO    ] logger:81 — Starting parse: 800 hex chars (0.4 KB)
+2026-05-21 12:06:39 [INFO    ] logger:81 — Packet detection: marker-based, found 7 packets.
+2026-05-21 12:06:39 [INFO    ] logger:81 — Parse complete: 1/7 valid records in 0.01s
+2026-05-21 12:06:39 [INFO    ] logger:81 — Parse done: 1/7 valid
+2026-05-21 12:06:39 [INFO    ] logger:81 — Starting parse: 800 hex chars (0.4 KB)
+2026-05-21 12:06:39 [INFO    ] logger:81 — Packet detection: marker-based, found 7 packets.
+2026-05-21 12:06:39 [INFO    ] logger:81 — Parse complete: 1/7 valid records in 0.01s
+2026-05-21 12:06:39 [INFO    ] logger:81 — Parse done: 1/7 valid
+2026-05-21 12:06:39 [INFO    ] logger:81 — Starting parse: 800 hex chars (0.4 KB)
+2026-05-21 12:06:39 [INFO    ] logger:81 — Packet detection: marker-based, found 7 packets.
+2026-05-21 12:06:39 [INFO    ] logger:81 — Parse complete: 1/7 valid records in 0.01s
+2026-05-21 12:06:39 [INFO    ] logger:81 — Parse done: 1/7 valid
+2026-05-21 12:11:09 [INFO    ] logger:81 — PLC Decoder 1.0.0 started.
+2026-05-21 12:11:27 [INFO    ] logger:81 — Reading 'Python.txt' as format='hex_text' (0.8 KB)
+2026-05-21 12:11:27 [DEBUG   ] logger:78 — Extracted 800 hex chars from text file.
+2026-05-21 12:11:27 [INFO    ] logger:81 — File loaded: C:/Users/gamer/Downloads/Python.txt
+2026-05-21 12:11:38 [INFO    ] logger:81 — Starting parse: 800 hex chars (0.4 KB)
+2026-05-21 12:11:38 [INFO    ] logger:81 — Packet detection: marker-based, found 7 packets.
+2026-05-21 12:11:38 [INFO    ] logger:81 — Parse complete: 1/7 valid records in 0.01s
+2026-05-21 12:11:38 [INFO    ] logger:81 — Parse done: 1/7 valid
+2026-05-21 12:16:16 [WARNING ] logger:84 — Unsupported extension '.xlsx' — will attempt text read anyway.
+2026-05-21 12:16:16 [INFO    ] logger:81 — Reading 'Copy of IOT DATALOGINE  DATA.xlsx' as format='binary' (15.2 KB)
+2026-05-21 12:16:16 [DEBUG   ] logger:78 — Read 15575 bytes from binary file.
+2026-05-21 12:16:16 [INFO    ] logger:81 — File loaded: C:/Users/gamer/Downloads/Copy of IOT DATALOGINE  DATA.xlsx
+2026-05-21 12:16:17 [INFO    ] logger:81 — Starting parse: 31150 hex chars (15.2 KB)
+2026-05-21 12:16:17 [INFO    ] logger:81 — Packet detection: fixed-length (40 B), found 389 packets.
+2026-05-21 12:16:17 [DEBUG   ] logger:78 — Packet 2 at offset 160 is all-zeros padding, skipping.
+2026-05-21 12:16:17 [DEBUG   ] logger:78 — Packet 3 at offset 240 is all-zeros padding, skipping.
+2026-05-21 12:16:17 [DEBUG   ] logger:78 — Packet 4 at offset 320 is all-zeros padding, skipping.
+2026-05-21 12:16:17 [DEBUG   ] logger:78 — Packet 5 at offset 400 is all-zeros padding, skipping.
+2026-05-21 12:16:17 [DEBUG   ] logger:78 — Packet 6 at offset 480 is all-zeros padding, skipping.
+2026-05-21 12:16:17 [DEBUG   ] logger:78 — Packet 7 at offset 560 is all-zeros padding, skipping.
+2026-05-21 12:16:17 [DEBUG   ] logger:78 — Packet 8 at offset 640 is all-zeros padding, skipping.
+2026-05-21 12:16:17 [DEBUG   ] logger:78 — Packet 9 at offset 720 is all-zeros padding, skipping.
+2026-05-21 12:16:17 [DEBUG   ] logger:78 — Packet 10 at offset 800 is all-zeros padding, skipping.
+2026-05-21 12:16:17 [DEBUG   ] logger:78 — Packet 11 at offset 880 is all-zeros padding, skipping.
+2026-05-21 12:16:17 [DEBUG   ] logger:78 — Packet 12 at offset 960 is all-zeros padding, skipping.
+2026-05-21 12:16:17 [DEBUG   ] logger:78 — Packet 13 at offset 1040 is all-zeros padding, skipping.
+2026-05-21 12:16:17 [DEBUG   ] logger:78 — Packet 26 at offset 2080 is all-zeros padding, skipping.
+2026-05-21 12:16:17 [DEBUG   ] logger:78 — Packet 27 at offset 2160 is all-zeros padding, skipping.
+2026-05-21 12:16:17 [DEBUG   ] logger:78 — Packet 28 at offset 2240 is all-zeros padding, skipping.
+2026-05-21 12:16:17 [DEBUG   ] logger:78 — Packet 29 at offset 2320 is all-zeros padding, skipping.
+2026-05-21 12:16:17 [DEBUG   ] logger:78 — Packet 30 at offset 2400 is all-zeros padding, skipping.
+2026-05-21 12:16:17 [DEBUG   ] logger:78 — Packet 31 at offset 2480 is all-zeros padding, skipping.
+2026-05-21 12:16:17 [DEBUG   ] logger:78 — Packet 32 at offset 2560 is all-zeros padding, skipping.
+2026-05-21 12:16:17 [DEBUG   ] logger:78 — Packet 33 at offset 2640 is all-zeros padding, skipping.
+2026-05-21 12:16:17 [DEBUG   ] logger:78 — Packet 34 at offset 2720 is all-zeros padding, skipping.
+2026-05-21 12:16:17 [DEBUG   ] logger:78 — Packet 35 at offset 2800 is all-zeros padding, skipping.
+2026-05-21 12:16:17 [DEBUG   ] logger:78 — Packet 36 at offset 2880 is all-zeros padding, skipping.
+2026-05-21 12:16:17 [DEBUG   ] logger:78 — Packet 37 at offset 2960 is all-zeros padding, skipping.
+2026-05-21 12:16:17 [DEBUG   ] logger:78 — Packet 71 at offset 5680 is all-zeros padding, skipping.
+2026-05-21 12:16:17 [DEBUG   ] logger:78 — Packet 72 at offset 5760 is all-zeros padding, skipping.
+2026-05-21 12:16:17 [DEBUG   ] logger:78 — Packet 73 at offset 5840 is all-zeros padding, skipping.
+2026-05-21 12:16:17 [DEBUG   ] logger:78 — Packet 74 at offset 5920 is all-zeros padding, skipping.
+2026-05-21 12:16:17 [DEBUG   ] logger:78 — Packet 75 at offset 6000 is all-zeros padding, skipping.
+2026-05-21 12:16:17 [DEBUG   ] logger:78 — Packet 76 at offset 6080 is all-zeros padding, skipping.
+2026-05-21 12:16:17 [DEBUG   ] logger:78 — Packet 298 at offset 23840 is all-zeros padding, skipping.
+2026-05-21 12:16:17 [DEBUG   ] logger:78 — Packet 299 at offset 23920 is all-zeros padding, skipping.
+2026-05-21 12:16:17 [DEBUG   ] logger:78 — Packet 300 at offset 24000 is all-zeros padding, skipping.
+2026-05-21 12:16:17 [DEBUG   ] logger:78 — Packet 301 at offset 24080 is all-zeros padding, skipping.
+2026-05-21 12:16:17 [DEBUG   ] logger:78 — Packet 302 at offset 24160 is all-zeros padding, skipping.
+2026-05-21 12:16:17 [DEBUG   ] logger:78 — Packet 303 at offset 24240 is all-zeros padding, skipping.
+2026-05-21 12:16:17 [DEBUG   ] logger:78 — Packet 316 at offset 25280 is all-zeros padding, skipping.
+2026-05-21 12:16:17 [DEBUG   ] logger:78 — Packet 317 at offset 25360 is all-zeros padding, skipping.
+2026-05-21 12:16:17 [DEBUG   ] logger:78 — Packet 318 at offset 25440 is all-zeros padding, skipping.
+2026-05-21 12:16:17 [DEBUG   ] logger:78 — Packet 319 at offset 25520 is all-zeros padding, skipping.
+2026-05-21 12:16:17 [DEBUG   ] logger:78 — Packet 320 at offset 25600 is all-zeros padding, skipping.
+2026-05-21 12:16:17 [DEBUG   ] logger:78 — Packet 334 at offset 26720 is all-zeros padding, skipping.
+2026-05-21 12:16:17 [DEBUG   ] logger:78 — Packet 335 at offset 26800 is all-zeros padding, skipping.
+2026-05-21 12:16:17 [DEBUG   ] logger:78 — Packet 336 at offset 26880 is all-zeros padding, skipping.
+2026-05-21 12:16:17 [DEBUG   ] logger:78 — Packet 337 at offset 26960 is all-zeros padding, skipping.
+2026-05-21 12:16:17 [DEBUG   ] logger:78 — Packet 338 at offset 27040 is all-zeros padding, skipping.
+2026-05-21 12:16:17 [DEBUG   ] logger:78 — Packet 351 at offset 28080 is all-zeros padding, skipping.
+2026-05-21 12:16:17 [DEBUG   ] logger:78 — Packet 352 at offset 28160 is all-zeros padding, skipping.
+2026-05-21 12:16:17 [DEBUG   ] logger:78 — Packet 353 at offset 28240 is all-zeros padding, skipping.
+2026-05-21 12:16:17 [DEBUG   ] logger:78 — Packet 354 at offset 28320 is all-zeros padding, skipping.
+2026-05-21 12:16:17 [DEBUG   ] logger:78 — Packet 355 at offset 28400 is all-zeros padding, skipping.
+2026-05-21 12:16:17 [INFO    ] logger:81 — Parse complete: 10/338 valid records in 0.23s
+2026-05-21 12:16:18 [INFO    ] logger:81 — Parse done: 10/338 valid
+2026-05-21 12:16:38 [INFO    ] logger:81 — Reading 'Python.txt' as format='hex_text' (0.8 KB)
+2026-05-21 12:16:38 [DEBUG   ] logger:78 — Extracted 800 hex chars from text file.
+2026-05-21 12:16:38 [INFO    ] logger:81 — File loaded: C:/Users/gamer/Downloads/Python.txt
+2026-05-21 12:17:01 [INFO    ] logger:81 — Starting parse: 800 hex chars (0.4 KB)
+2026-05-21 12:17:01 [INFO    ] logger:81 — Packet detection: marker-based, found 7 packets.
+2026-05-21 12:17:01 [INFO    ] logger:81 — Parse complete: 1/7 valid records in 0.01s
+2026-05-21 12:17:01 [INFO    ] logger:81 — Parse done: 1/7 valid
+2026-05-21 12:17:02 [INFO    ] logger:81 — Starting parse: 800 hex chars (0.4 KB)
+2026-05-21 12:17:02 [INFO    ] logger:81 — Packet detection: marker-based, found 7 packets.
+2026-05-21 12:17:02 [INFO    ] logger:81 — Parse complete: 1/7 valid records in 0.01s
+2026-05-21 12:17:02 [INFO    ] logger:81 — Parse done: 1/7 valid
+2026-05-21 12:17:03 [INFO    ] logger:81 — Starting parse: 800 hex chars (0.4 KB)
+2026-05-21 12:17:03 [INFO    ] logger:81 — Packet detection: marker-based, found 7 packets.
+2026-05-21 12:17:03 [INFO    ] logger:81 — Parse complete: 1/7 valid records in 0.01s
+2026-05-21 12:17:03 [INFO    ] logger:81 — Parse done: 1/7 valid
+2026-05-21 12:17:03 [INFO    ] logger:81 — Starting parse: 800 hex chars (0.4 KB)
+2026-05-21 12:17:03 [INFO    ] logger:81 — Packet detection: marker-based, found 7 packets.
+2026-05-21 12:17:03 [INFO    ] logger:81 — Parse complete: 1/7 valid records in 0.01s
+2026-05-21 12:17:03 [INFO    ] logger:81 — Parse done: 1/7 valid
+2026-05-21 12:18:36 [INFO    ] logger:81 — StructureAnalyzer: starting analysis...
+2026-05-21 12:18:36 [DEBUG   ] logger:78 — Period detection: best_period=10 score=0.932
+2026-05-21 12:18:36 [DEBUG   ] logger:78 — Timestamp found: DetectedTimestamp(@word 1: 2024-11-11 10:55:17)
+2026-05-21 12:18:36 [INFO    ] logger:81 — TimestampDetector found 1 timestamps.
+2026-05-21 12:18:42 [INFO    ] logger:81 — Starting parse: 800 hex chars (0.4 KB)
+2026-05-21 12:18:42 [INFO    ] logger:81 — Packet detection: fixed-length (20 B), found 20 packets.
+2026-05-21 12:18:42 [DEBUG   ] logger:78 — Packet 4 at offset 160 is all-zeros padding, skipping.
+2026-05-21 12:18:42 [DEBUG   ] logger:78 — Packet 5 at offset 200 is all-zeros padding, skipping.
+2026-05-21 12:18:42 [DEBUG   ] logger:78 — Packet 6 at offset 240 is all-zeros padding, skipping.
+2026-05-21 12:18:42 [DEBUG   ] logger:78 — Packet 7 at offset 280 is all-zeros padding, skipping.
+2026-05-21 12:18:42 [DEBUG   ] logger:78 — Packet 8 at offset 320 is all-zeros padding, skipping.
+2026-05-21 12:18:42 [DEBUG   ] logger:78 — Packet 9 at offset 360 is all-zeros padding, skipping.
+2026-05-21 12:18:42 [DEBUG   ] logger:78 — Packet 10 at offset 400 is all-zeros padding, skipping.
+2026-05-21 12:18:42 [DEBUG   ] logger:78 — Packet 11 at offset 440 is all-zeros padding, skipping.
+2026-05-21 12:18:42 [DEBUG   ] logger:78 — Packet 12 at offset 480 is all-zeros padding, skipping.
+2026-05-21 12:18:42 [DEBUG   ] logger:78 — Packet 13 at offset 520 is all-zeros padding, skipping.
+2026-05-21 12:18:42 [DEBUG   ] logger:78 — Packet 14 at offset 560 is all-zeros padding, skipping.
+2026-05-21 12:18:42 [DEBUG   ] logger:78 — Packet 15 at offset 600 is all-zeros padding, skipping.
+2026-05-21 12:18:42 [DEBUG   ] logger:78 — Packet 16 at offset 640 is all-zeros padding, skipping.
+2026-05-21 12:18:42 [DEBUG   ] logger:78 — Packet 17 at offset 680 is all-zeros padding, skipping.
+2026-05-21 12:18:42 [DEBUG   ] logger:78 — Packet 18 at offset 720 is all-zeros padding, skipping.
+2026-05-21 12:18:42 [DEBUG   ] logger:78 — Packet 19 at offset 760 is all-zeros padding, skipping.
+2026-05-21 12:18:42 [INFO    ] logger:81 — Parse complete: 4/4 valid records in 0.01s
+2026-05-21 12:18:42 [INFO    ] logger:81 — Parse done: 4/4 valid
+2026-05-21 12:19:09 [INFO    ] logger:81 — Starting parse: 800 hex chars (0.4 KB)
+2026-05-21 12:19:09 [INFO    ] logger:81 — Packet detection: fixed-length (20 B), found 20 packets.
+2026-05-21 12:19:09 [DEBUG   ] logger:78 — Packet 4 at offset 160 is all-zeros padding, skipping.
+2026-05-21 12:19:09 [DEBUG   ] logger:78 — Packet 5 at offset 200 is all-zeros padding, skipping.
+2026-05-21 12:19:09 [DEBUG   ] logger:78 — Packet 6 at offset 240 is all-zeros padding, skipping.
+2026-05-21 12:19:09 [DEBUG   ] logger:78 — Packet 7 at offset 280 is all-zeros padding, skipping.
+2026-05-21 12:19:09 [DEBUG   ] logger:78 — Packet 8 at offset 320 is all-zeros padding, skipping.
+2026-05-21 12:19:09 [DEBUG   ] logger:78 — Packet 9 at offset 360 is all-zeros padding, skipping.
+2026-05-21 12:19:09 [DEBUG   ] logger:78 — Packet 10 at offset 400 is all-zeros padding, skipping.
+2026-05-21 12:19:09 [DEBUG   ] logger:78 — Packet 11 at offset 440 is all-zeros padding, skipping.
+2026-05-21 12:19:09 [DEBUG   ] logger:78 — Packet 12 at offset 480 is all-zeros padding, skipping.
+2026-05-21 12:19:09 [DEBUG   ] logger:78 — Packet 13 at offset 520 is all-zeros padding, skipping.
+2026-05-21 12:19:09 [DEBUG   ] logger:78 — Packet 14 at offset 560 is all-zeros padding, skipping.
+2026-05-21 12:19:09 [DEBUG   ] logger:78 — Packet 15 at offset 600 is all-zeros padding, skipping.
+2026-05-21 12:19:09 [DEBUG   ] logger:78 — Packet 16 at offset 640 is all-zeros padding, skipping.
+2026-05-21 12:19:09 [DEBUG   ] logger:78 — Packet 17 at offset 680 is all-zeros padding, skipping.
+2026-05-21 12:19:09 [DEBUG   ] logger:78 — Packet 18 at offset 720 is all-zeros padding, skipping.
+2026-05-21 12:19:09 [DEBUG   ] logger:78 — Packet 19 at offset 760 is all-zeros padding, skipping.
+2026-05-21 12:19:09 [INFO    ] logger:81 — Parse complete: 4/4 valid records in 0.01s
+2026-05-21 12:19:09 [INFO    ] logger:81 — Parse done: 4/4 valid
+2026-05-21 12:19:10 [INFO    ] logger:81 — Starting parse: 800 hex chars (0.4 KB)
+2026-05-21 12:19:10 [INFO    ] logger:81 — Packet detection: fixed-length (20 B), found 20 packets.
+2026-05-21 12:19:10 [DEBUG   ] logger:78 — Packet 4 at offset 160 is all-zeros padding, skipping.
+2026-05-21 12:19:10 [DEBUG   ] logger:78 — Packet 5 at offset 200 is all-zeros padding, skipping.
+2026-05-21 12:19:10 [DEBUG   ] logger:78 — Packet 6 at offset 240 is all-zeros padding, skipping.
+2026-05-21 12:19:10 [DEBUG   ] logger:78 — Packet 7 at offset 280 is all-zeros padding, skipping.
+2026-05-21 12:19:10 [DEBUG   ] logger:78 — Packet 8 at offset 320 is all-zeros padding, skipping.
+2026-05-21 12:19:10 [DEBUG   ] logger:78 — Packet 9 at offset 360 is all-zeros padding, skipping.
+2026-05-21 12:19:10 [DEBUG   ] logger:78 — Packet 10 at offset 400 is all-zeros padding, skipping.
+2026-05-21 12:19:10 [DEBUG   ] logger:78 — Packet 11 at offset 440 is all-zeros padding, skipping.
+2026-05-21 12:19:10 [DEBUG   ] logger:78 — Packet 12 at offset 480 is all-zeros padding, skipping.
+2026-05-21 12:19:10 [DEBUG   ] logger:78 — Packet 13 at offset 520 is all-zeros padding, skipping.
+2026-05-21 12:19:10 [DEBUG   ] logger:78 — Packet 14 at offset 560 is all-zeros padding, skipping.
+2026-05-21 12:19:10 [DEBUG   ] logger:78 — Packet 15 at offset 600 is all-zeros padding, skipping.
+2026-05-21 12:19:10 [DEBUG   ] logger:78 — Packet 16 at offset 640 is all-zeros padding, skipping.
+2026-05-21 12:19:10 [DEBUG   ] logger:78 — Packet 17 at offset 680 is all-zeros padding, skipping.
+2026-05-21 12:19:10 [DEBUG   ] logger:78 — Packet 18 at offset 720 is all-zeros padding, skipping.
+2026-05-21 12:19:10 [DEBUG   ] logger:78 — Packet 19 at offset 760 is all-zeros padding, skipping.
+2026-05-21 12:19:10 [INFO    ] logger:81 — Parse complete: 4/4 valid records in 0.01s
+2026-05-21 12:19:10 [INFO    ] logger:81 — Parse done: 4/4 valid
+2026-05-21 12:19:11 [INFO    ] logger:81 — Starting parse: 800 hex chars (0.4 KB)
+2026-05-21 12:19:11 [INFO    ] logger:81 — Packet detection: fixed-length (20 B), found 20 packets.
+2026-05-21 12:19:11 [DEBUG   ] logger:78 — Packet 4 at offset 160 is all-zeros padding, skipping.
+2026-05-21 12:19:11 [DEBUG   ] logger:78 — Packet 5 at offset 200 is all-zeros padding, skipping.
+2026-05-21 12:19:11 [DEBUG   ] logger:78 — Packet 6 at offset 240 is all-zeros padding, skipping.
+2026-05-21 12:19:11 [DEBUG   ] logger:78 — Packet 7 at offset 280 is all-zeros padding, skipping.
+2026-05-21 12:19:11 [DEBUG   ] logger:78 — Packet 8 at offset 320 is all-zeros padding, skipping.
+2026-05-21 12:19:11 [DEBUG   ] logger:78 — Packet 9 at offset 360 is all-zeros padding, skipping.
+2026-05-21 12:19:11 [DEBUG   ] logger:78 — Packet 10 at offset 400 is all-zeros padding, skipping.
+2026-05-21 12:19:11 [DEBUG   ] logger:78 — Packet 11 at offset 440 is all-zeros padding, skipping.
+2026-05-21 12:19:11 [DEBUG   ] logger:78 — Packet 12 at offset 480 is all-zeros padding, skipping.
+2026-05-21 12:19:11 [DEBUG   ] logger:78 — Packet 13 at offset 520 is all-zeros padding, skipping.
+2026-05-21 12:19:11 [DEBUG   ] logger:78 — Packet 14 at offset 560 is all-zeros padding, skipping.
+2026-05-21 12:19:11 [DEBUG   ] logger:78 — Packet 15 at offset 600 is all-zeros padding, skipping.
+2026-05-21 12:19:11 [DEBUG   ] logger:78 — Packet 16 at offset 640 is all-zeros padding, skipping.
+2026-05-21 12:19:11 [DEBUG   ] logger:78 — Packet 17 at offset 680 is all-zeros padding, skipping.
+2026-05-21 12:19:11 [DEBUG   ] logger:78 — Packet 18 at offset 720 is all-zeros padding, skipping.
+2026-05-21 12:19:11 [DEBUG   ] logger:78 — Packet 19 at offset 760 is all-zeros padding, skipping.
+2026-05-21 12:19:11 [INFO    ] logger:81 — Parse complete: 4/4 valid records in 0.01s
+2026-05-21 12:19:11 [INFO    ] logger:81 — Parse done: 4/4 valid
+2026-05-21 12:19:11 [INFO    ] logger:81 — Starting parse: 800 hex chars (0.4 KB)
+2026-05-21 12:19:11 [INFO    ] logger:81 — Packet detection: fixed-length (20 B), found 20 packets.
+2026-05-21 12:19:11 [DEBUG   ] logger:78 — Packet 4 at offset 160 is all-zeros padding, skipping.
+2026-05-21 12:19:11 [DEBUG   ] logger:78 — Packet 5 at offset 200 is all-zeros padding, skipping.
+2026-05-21 12:19:11 [DEBUG   ] logger:78 — Packet 6 at offset 240 is all-zeros padding, skipping.
+2026-05-21 12:19:11 [DEBUG   ] logger:78 — Packet 7 at offset 280 is all-zeros padding, skipping.
+2026-05-21 12:19:11 [DEBUG   ] logger:78 — Packet 8 at offset 320 is all-zeros padding, skipping.
+2026-05-21 12:19:11 [DEBUG   ] logger:78 — Packet 9 at offset 360 is all-zeros padding, skipping.
+2026-05-21 12:19:11 [DEBUG   ] logger:78 — Packet 10 at offset 400 is all-zeros padding, skipping.
+2026-05-21 12:19:11 [DEBUG   ] logger:78 — Packet 11 at offset 440 is all-zeros padding, skipping.
+2026-05-21 12:19:11 [DEBUG   ] logger:78 — Packet 12 at offset 480 is all-zeros padding, skipping.
+2026-05-21 12:19:11 [DEBUG   ] logger:78 — Packet 13 at offset 520 is all-zeros padding, skipping.
+2026-05-21 12:19:11 [DEBUG   ] logger:78 — Packet 14 at offset 560 is all-zeros padding, skipping.
+2026-05-21 12:19:11 [DEBUG   ] logger:78 — Packet 15 at offset 600 is all-zeros padding, skipping.
+2026-05-21 12:19:11 [DEBUG   ] logger:78 — Packet 16 at offset 640 is all-zeros padding, skipping.
+2026-05-21 12:19:11 [DEBUG   ] logger:78 — Packet 17 at offset 680 is all-zeros padding, skipping.
+2026-05-21 12:19:11 [DEBUG   ] logger:78 — Packet 18 at offset 720 is all-zeros padding, skipping.
+2026-05-21 12:19:11 [DEBUG   ] logger:78 — Packet 19 at offset 760 is all-zeros padding, skipping.
+2026-05-21 12:19:11 [INFO    ] logger:81 — Parse complete: 4/4 valid records in 0.01s
+2026-05-21 12:19:11 [INFO    ] logger:81 — Parse done: 4/4 valid
+2026-05-21 12:22:22 [INFO    ] logger:81 — PLC Decoder 1.0.0 started.
+2026-05-21 12:22:42 [INFO    ] logger:81 — Reading 'Python.txt' as format='hex_text' (0.8 KB)
+2026-05-21 12:22:42 [DEBUG   ] logger:78 — Extracted 800 hex chars from text file.
+2026-05-21 12:22:42 [INFO    ] logger:81 — File loaded: C:/Users/gamer/Downloads/Python.txt
+2026-05-21 12:22:47 [INFO    ] logger:81 — Starting parse: 800 hex chars (0.4 KB)
+2026-05-21 12:22:47 [INFO    ] logger:81 — Packet detection: marker-based, found 7 packets.
+2026-05-21 12:22:47 [INFO    ] logger:81 — Parse complete: 1/7 valid records in 0.01s
+2026-05-21 12:22:47 [INFO    ] logger:81 — Parse done: 1/7 valid
+2026-05-21 12:25:47 [INFO    ] logger:81 — StructureAnalyzer: starting analysis...
+2026-05-21 12:25:47 [DEBUG   ] logger:78 — Period detection: best_period=10 score=0.932
+2026-05-21 12:25:47 [DEBUG   ] logger:78 — Timestamp found: DetectedTimestamp(@word 1: 2024-11-11 10:55:17)
+2026-05-21 12:25:47 [INFO    ] logger:81 — TimestampDetector found 1 timestamps.
+2026-05-21 12:25:50 [INFO    ] logger:81 — Starting parse: 800 hex chars (0.4 KB)
+2026-05-21 12:25:50 [INFO    ] logger:81 — Packet detection: fixed-length (20 B), found 20 packets.
+2026-05-21 12:25:50 [DEBUG   ] logger:78 — Packet 4 at offset 160 is all-zeros padding, skipping.
+2026-05-21 12:25:50 [DEBUG   ] logger:78 — Packet 5 at offset 200 is all-zeros padding, skipping.
+2026-05-21 12:25:50 [DEBUG   ] logger:78 — Packet 6 at offset 240 is all-zeros padding, skipping.
+2026-05-21 12:25:50 [DEBUG   ] logger:78 — Packet 7 at offset 280 is all-zeros padding, skipping.
+2026-05-21 12:25:50 [DEBUG   ] logger:78 — Packet 8 at offset 320 is all-zeros padding, skipping.
+2026-05-21 12:25:50 [DEBUG   ] logger:78 — Packet 9 at offset 360 is all-zeros padding, skipping.
+2026-05-21 12:25:50 [DEBUG   ] logger:78 — Packet 10 at offset 400 is all-zeros padding, skipping.
+2026-05-21 12:25:50 [DEBUG   ] logger:78 — Packet 11 at offset 440 is all-zeros padding, skipping.
+2026-05-21 12:25:50 [DEBUG   ] logger:78 — Packet 12 at offset 480 is all-zeros padding, skipping.
+2026-05-21 12:25:50 [DEBUG   ] logger:78 — Packet 13 at offset 520 is all-zeros padding, skipping.
+2026-05-21 12:25:50 [DEBUG   ] logger:78 — Packet 14 at offset 560 is all-zeros padding, skipping.
+2026-05-21 12:25:50 [DEBUG   ] logger:78 — Packet 15 at offset 600 is all-zeros padding, skipping.
+2026-05-21 12:25:50 [DEBUG   ] logger:78 — Packet 16 at offset 640 is all-zeros padding, skipping.
+2026-05-21 12:25:50 [DEBUG   ] logger:78 — Packet 17 at offset 680 is all-zeros padding, skipping.
+2026-05-21 12:25:50 [DEBUG   ] logger:78 — Packet 18 at offset 720 is all-zeros padding, skipping.
+2026-05-21 12:25:50 [DEBUG   ] logger:78 — Packet 19 at offset 760 is all-zeros padding, skipping.
+2026-05-21 12:25:50 [INFO    ] logger:81 — Parse complete: 4/4 valid records in 0.01s
+2026-05-21 12:25:50 [INFO    ] logger:81 — Parse done: 4/4 valid

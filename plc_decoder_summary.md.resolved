@@ -1,0 +1,91 @@
+# PLC Decoder Pro — Project Summary
+
+## What Was Built
+
+A complete, production-grade Python desktop application for decoding Mitsubishi FX5U / LiraNET protocol PLC hex data into formatted Excel reports.
+
+## Key Discoveries from Your Reference Files
+
+| Finding | Detail |
+|---|---|
+| Protocol | **LiraNET Data Transmission Protocol on EtherNET** (`mrpl@2016`) |
+| PLC Model | **Mitsubishi FX5U** (Little-Endian data storage) |
+| Packet Start | `03E9` = Sub-Client ID 1001 |
+| Timestamp | 7 words: Year/Month/Day/Hour/Minute/Second/MS (big-endian 16-bit) |
+| Sample data | `03E9 07E8 000B 000B 000A 0037 0011 001E` = ID=1001, 2024-11-11 10:55:17.030 |
+| Registers | D1600–D1710 (20 registers, 9999 = sentinel "no data") |
+
+## Project Structure (35 files)
+
+```
+PLC-Decoder/
+├── main.py                     ← Entry point (GUI + CLI)
+├── requirements.txt
+├── README.md
+├── parser/
+│   ├── base_parser.py          ← ParsedRecord dataclass + abstract base
+│   ├── hex_parser.py           ← Main parser (markers → fields → validation)
+│   ├── packet_detector.py      ← 3-strategy packet boundary finder
+│   └── field_extractor.py      ← Config-driven field extraction
+├── analyzer/
+│   ├── pattern_detector.py     ← Autocorrelation period detection
+│   ├── timestamp_detector.py   ← Heuristic Y/M/D scanner
+│   ├── structure_analyzer.py   ← Orchestrates → generates suggested config
+│   └── crc_validator.py        ← CRC-16/Modbus, CCITT, XOR, byte-sum
+├── exporters/
+│   ├── excel_exporter.py       ← 5-sheet professional Excel workbook
+│   └── csv_exporter.py
+├── ui/
+│   ├── main_window.py          ← Root window + background parse workers
+│   ├── file_panel.py           ← Drag-and-drop file selector
+│   ├── config_panel.py         ← Quick settings + JSON editor tabs
+│   ├── preview_table.py        ← Sortable/filterable decoded records table
+│   ├── hex_viewer.py           ← Paged hex dump with ruler + ASCII
+│   ├── stats_panel.py          ← Metric cards + success bar
+│   └── log_panel.py            ← Error/app log viewer with export
+├── configs/
+│   ├── config_loader.py
+│   └── plc_templates/
+│       ├── liranet_fx5u.json   ← Default (matches your reference file)
+│       └── modbus_template.json
+└── utils/
+    ├── logger.py               ← Singleton (file + console + GUI capture)
+    ├── file_reader.py          ← txt/csv/binary auto-detection
+    └── helpers.py              ← hex_to_int, chunk_hex, validators, etc.
+```
+
+## Usage
+
+```bash
+# GUI (recommended)
+python main.py
+
+# CLI: parse + export
+python main.py --cli Python.txt --output decoded.xlsx
+
+# CLI: auto-analyze unknown format
+python main.py --analyze Python.txt
+
+# CLI: with custom config
+python main.py --cli data.txt --config configs/plc_templates/liranet_fx5u.json
+```
+
+## Excel Output
+
+5 sheets per export:
+1. **Records** — Full decoded table with LiraNET header, frozen header, color rows
+2. **Registers** — Pivoted D1600–D1710 register view with descriptions
+3. **Packet Stats** — Parse summary (totals, timestamps, errors)
+4. **Error Log** — Corrupt/invalid packets with raw hex
+5. **Raw Hex** — Per-record word-spaced hex dump
+
+## Important Bug Fixed
+
+The `clean_hex_string()` utility originally used `re.sub(r"[\s:0xX]", ...)` which **stripped every `0` digit** from the hex stream. Fixed to `re.sub(r"0[xX]", ...)` + `re.sub(r"[\s:]", ...)` — now only `0x`/`0X` prefixes are removed, not the digit `0`.
+
+## Packet Detection Strategies
+
+1. **Marker-based** — `03E9` start marker (highest confidence, 0.95)
+2. **Fixed-length** — configurable `packet_size_bytes`
+3. **Timestamp heuristic** — finds Y/M/D word sequences automatically
+4. **Fallback** — treats entire stream as single packet

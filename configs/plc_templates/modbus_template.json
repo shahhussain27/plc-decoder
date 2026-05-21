@@ -1,0 +1,44 @@
+{
+  "_comment": "Generic Modbus RTU template — 16-bit registers, big-endian",
+  "format_name": "modbus_template",
+  "protocol": "Modbus RTU",
+  "metadata": {
+    "protocol_name": "Modbus RTU Generic Template",
+    "copyright": "",
+    "plc_model": "Generic Modbus Device",
+    "endianness_note": "Standard Modbus uses big-endian byte order"
+  },
+  "endianness": "big",
+  "packet_definition": {
+    "packet_size_bytes": 20,
+    "header_size_bytes": 0,
+    "start_markers": [],
+    "description": "Fixed 20-byte packets (10 registers of 2 bytes each)"
+  },
+  "timestamp": {
+    "word_offset": 0,
+    "fields": ["year", "month", "day", "hour", "minute", "second"]
+  },
+  "fields": [
+    {"name": "year",   "word_offset": 0, "size_words": 1, "byteorder": "big", "signed": false, "data_type": "uint16", "description": "Year", "register": "40001"},
+    {"name": "month",  "word_offset": 1, "size_words": 1, "byteorder": "big", "signed": false, "data_type": "uint16", "description": "Month", "register": "40002"},
+    {"name": "day",    "word_offset": 2, "size_words": 1, "byteorder": "big", "signed": false, "data_type": "uint16", "description": "Day", "register": "40003"},
+    {"name": "hour",   "word_offset": 3, "size_words": 1, "byteorder": "big", "signed": false, "data_type": "uint16", "description": "Hour", "register": "40004"},
+    {"name": "minute", "word_offset": 4, "size_words": 1, "byteorder": "big", "signed": false, "data_type": "uint16", "description": "Minute", "register": "40005"},
+    {"name": "second", "word_offset": 5, "size_words": 1, "byteorder": "big", "signed": false, "data_type": "uint16", "description": "Second", "register": "40006"},
+    {"name": "register_1", "word_offset": 6, "size_words": 1, "byteorder": "big", "signed": false, "data_type": "uint16", "description": "Data Register 1", "register": "40007"},
+    {"name": "register_2", "word_offset": 7, "size_words": 1, "byteorder": "big", "signed": false, "data_type": "uint16", "description": "Data Register 2", "register": "40008"},
+    {"name": "register_3", "word_offset": 8, "size_words": 1, "byteorder": "big", "signed": false, "data_type": "uint16", "description": "Data Register 3", "register": "40009"},
+    {"name": "register_4", "word_offset": 9, "size_words": 1, "byteorder": "big", "signed": false, "data_type": "uint16", "description": "Data Register 4", "register": "40010"}
+  ],
+  "parser_options": {
+    "skip_padding": true,
+    "min_valid_bytes": 4,
+    "validate_timestamps": true
+  },
+  "crc": {
+    "mode": "crc16_modbus",
+    "crc_position": -2,
+    "data_range": [0, -2]
+  }
+}
