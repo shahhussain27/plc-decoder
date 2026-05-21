@@ -326,3 +326,23 @@
 2026-05-21 12:25:50 [DEBUG   ] logger:78 — Packet 19 at offset 760 is all-zeros padding, skipping.
 2026-05-21 12:25:50 [INFO    ] logger:81 — Parse complete: 4/4 valid records in 0.01s
 2026-05-21 12:25:50 [INFO    ] logger:81 — Parse done: 4/4 valid
+2026-05-21 12:30:08 [INFO    ] logger:81 — Reading 'tmp9fwwpuwe.txt' as format='hex_text' (0.8 KB)
+2026-05-21 12:30:08 [DEBUG   ] logger:78 — Extracted 800 hex chars from text file.
+2026-05-21 12:30:10 [INFO    ] logger:81 — Reading 'tmpzhy8nlb5.txt' as format='hex_text' (0.8 KB)
+2026-05-21 12:30:10 [DEBUG   ] logger:78 — Extracted 800 hex chars from text file.
+2026-05-21 12:30:10 [INFO    ] logger:81 — Starting parse: 800 hex chars (0.4 KB)
+2026-05-21 12:30:10 [INFO    ] logger:81 — Packet detection: marker-based, found 7 packets.
+2026-05-21 12:30:10 [INFO    ] logger:81 — Parse complete: 1/7 valid records in 0.00s
+2026-05-21 12:30:10 [INFO    ] logger:81 — Exporting 7 records to Excel: C:\Users\gamer\AppData\Local\Temp\tmpxm4vnyb6.xlsx
+2026-05-21 12:30:10 [INFO    ] logger:81 — Excel saved: C:\Users\gamer\AppData\Local\Temp\tmpxm4vnyb6.xlsx
+2026-05-21 12:30:22 [INFO    ] logger:81 — Reading 'tmpfjzb29je.txt' as format='hex_text' (0.8 KB)
+2026-05-21 12:30:22 [DEBUG   ] logger:78 — Extracted 800 hex chars from text file.
+2026-05-21 12:32:49 [INFO    ] logger:81 — Reading 'tmpiu4g6hwx.txt' as format='hex_text' (0.8 KB)
+2026-05-21 12:32:49 [DEBUG   ] logger:78 — Extracted 800 hex chars from text file.
+2026-05-21 12:32:50 [INFO    ] logger:81 — Reading 'tmpax0aaq9l.txt' as format='hex_text' (0.8 KB)
+2026-05-21 12:32:50 [DEBUG   ] logger:78 — Extracted 800 hex chars from text file.
+2026-05-21 12:32:50 [INFO    ] logger:81 — Starting parse: 800 hex chars (0.4 KB)
+2026-05-21 12:32:50 [INFO    ] logger:81 — Packet detection: marker-based, found 7 packets.
+2026-05-21 12:32:50 [INFO    ] logger:81 — Parse complete: 1/7 valid records in 0.00s
+2026-05-21 12:32:50 [INFO    ] logger:81 — Exporting 7 records to Excel: C:\Users\gamer\AppData\Local\Temp\tmp_9nahxza.xlsx
+2026-05-21 12:32:50 [INFO    ] logger:81 — Excel saved: C:\Users\gamer\AppData\Local\Temp\tmp_9nahxza.xlsx
